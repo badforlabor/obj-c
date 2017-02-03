@@ -9,9 +9,13 @@
 #import <Foundation/Foundation.h>
 
 
-@interface ClassBase : NSObject
+@protocol ProtocolA
+- (void) showMe;
+@end
+
+
+@interface ClassBase : NSObject <ProtocolA>
 {}
--(void)showMe;
 @end
 
 // ifndef可以不带
