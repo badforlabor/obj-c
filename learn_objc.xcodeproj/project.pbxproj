@@ -10,6 +10,7 @@
 		F0C6E5AA1E434639008188CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C6E5A91E434639008188CB /* main.m */; };
 		F0C6E5B21E43B990008188CB /* ClassA.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C6E5B11E43B990008188CB /* ClassA.m */; };
 		F0C6E5B51E43C13D008188CB /* ClassB.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C6E5B41E43C13D008188CB /* ClassB.m */; };
+		F0C6E5B71E43D55D008188CB /* categoryA.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C6E5B61E43D55D008188CB /* categoryA.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		F0C6E5B11E43B990008188CB /* ClassA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassA.m; sourceTree = "<group>"; };
 		F0C6E5B31E43C0FA008188CB /* ClassB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClassB.h; sourceTree = "<group>"; };
 		F0C6E5B41E43C13D008188CB /* ClassB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassB.m; sourceTree = "<group>"; };
+		F0C6E5B61E43D55D008188CB /* categoryA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = categoryA.m; sourceTree = "<group>"; };
+		F0C6E5B81E43D623008188CB /* categoryA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = categoryA.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +71,8 @@
 				F0C6E5B11E43B990008188CB /* ClassA.m */,
 				F0C6E5B31E43C0FA008188CB /* ClassB.h */,
 				F0C6E5B41E43C13D008188CB /* ClassB.m */,
+				F0C6E5B61E43D55D008188CB /* categoryA.m */,
+				F0C6E5B81E43D623008188CB /* categoryA.h */,
 			);
 			path = learn_objc;
 			sourceTree = "<group>";
@@ -129,6 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0C6E5B51E43C13D008188CB /* ClassB.m in Sources */,
+				F0C6E5B71E43D55D008188CB /* categoryA.m in Sources */,
 				F0C6E5B21E43B990008188CB /* ClassA.m in Sources */,
 				F0C6E5AA1E434639008188CB /* main.m in Sources */,
 			);
@@ -249,6 +255,7 @@
 				F0C6E5AF1E434639008188CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

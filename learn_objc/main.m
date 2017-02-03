@@ -10,6 +10,7 @@
 
 #import "ClassA.h"
 #import "ClassB.h"
+#import "categoryA.h"
 
 int main(int argc, const char * argv[]) {
     
@@ -23,6 +24,8 @@ int main(int argc, const char * argv[]) {
     // 可以这么调用！
     [pa showMe:5.0 :'a'];
     [pa showComplexMe:5 pf:1 pb:YES];
+    
+    [pa showCategoryMe];
     
     [ClassA staticShowMe];
     [ClassA staticSet:3];
